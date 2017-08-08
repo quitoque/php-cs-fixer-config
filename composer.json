@@ -1,0 +1,31 @@
+{
+    "name": "quitoque/php-cs-fixer-config",
+    "description": "Usefull tools for quitoque developpers",
+    "version": "0.1.0",
+    "keywords": [
+        "Preconfigured PHP Coding Standards Fixer",
+        "Quitoque Code Styling"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rémi Chomat",
+            "email": "remi@quitoque.fr"
+        }
+    ],
+    "require": {
+        "friendsofphp/php-cs-fixer": "^2.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Quitoque\\Tools\\PhpCsFixer\\": "src"
+        }
+    },
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
