@@ -1,7 +1,6 @@
 {
     "name": "quitoque/php-cs-fixer-config",
     "description": "Usefull tools for quitoque developpers",
-    "version": "0.1.0",
     "keywords": [
         "Preconfigured PHP Coding Standards Fixer",
         "Quitoque Code Styling"
