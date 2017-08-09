@@ -1,9 +1,10 @@
 {
     "name": "quitoque/php-cs-fixer-config",
-    "description": "Usefull tools for quitoque developpers",
+    "description": "Configuration for PhpCsFixer used by Quitoque",
     "keywords": [
-        "Preconfigured PHP Coding Standards Fixer",
-        "Quitoque Code Styling"
+        "PhpCsFixer",
+        "Quitoque",
+        "Coding style"
     ],
     "type": "library",
     "license": "MIT",
