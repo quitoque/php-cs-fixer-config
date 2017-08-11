@@ -37,7 +37,22 @@ class QuitoqueConfig extends Base
             'blank_line_after_namespace' => true,
             'blank_line_after_opening_tag' => true,
             'blank_line_before_return' => true,
-            'blank_line_before_statement' => true,
+            'blank_line_before_statement' => [
+                'statements' => [ 
+                    'break', 
+                    'continue',
+                    'declare',
+                    'return',
+                    'throw',
+                    'try',
+                    'if',
+                    'for',
+                    'foreach',
+                    'switch',
+                    'while',
+                    'do',
+                ],
+            ],
             'braces' => true,
             'cast_spaces' => [
                 'space' => 'none',
