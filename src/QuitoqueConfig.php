@@ -30,10 +30,6 @@ class QuitoqueConfig extends Base
             'array_syntax' => [
                 'syntax' => 'short',
             ],
-            'binary_operator_spaces' => [
-                'align_double_arrow' => null,
-                'align_equals' => null,
-            ],
             'blank_line_after_namespace' => true,
             'blank_line_after_opening_tag' => true,
             'blank_line_before_return' => true,
@@ -145,7 +141,7 @@ class QuitoqueConfig extends Base
             'phpdoc_types_order' => true,
             'pre_increment' => true,
             'protected_to_private' => true,
-            'self_accessor' => true,
+            'self_accessor' => false,
             'semicolon_after_instruction' => true,
             'short_scalar_cast' => true,
             'single_blank_line_at_eof' => true,
